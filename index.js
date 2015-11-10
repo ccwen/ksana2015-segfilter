@@ -1,10 +1,9 @@
-var React=require("react/addons");
+var React=require("react");
 
 var E=React.createElement;
 var PT=React.PropTypes;
 var SegFilter=React.createClass({
-	mixins:[React.addons.PureRender]
-	,propTypes:{
+	propTypes:{
 		"regex":PT.string
 		,"texts":PT.object.isRequired
 		,"onGoSegment":PT.func

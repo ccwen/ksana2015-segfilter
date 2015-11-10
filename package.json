@@ -1,6 +1,6 @@
 {
   "name": "ksana2015-segfilter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "filter segment content by regex",
   "main": "index.js",
   "scripts": {
